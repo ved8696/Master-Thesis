@@ -1,19 +1,23 @@
-# Word-Sense-Disambiguation-using-Bidirectional-LSTM
+# Word-Sense-Disambiguation-using-Neural Networks
 
 File description:
 
-  * data.py:   preprocessing Senseval2 and Senseval3 dataset, get the input for model4.py, including the sense embedding of the target sense, and forward data and backward arount the central word.
+  * data.py:   preprocessing Senseval2 and Senseval3 dataset, get the input for all models, including the sense embedding of the target sense, and forward data and backward arount the central word for Bidirectional LSTM
+   
+  * bilstm.py:   build bidrection LSTM for word sense disambiguation, using data.py as input, it will output the model. 
   
-  * google_data.py:   preprocessing Google research dataset - Word Sense disambiguation corpora, get the input for model4.py, including the sense embedding of the target sense, and forward data and backward arount the central word.
+  * atten_in_lstm.py: build lstm model with attention layer for forward and backward data seperately for word sense disambiguation, using data.py as input, it will output the      model. 
+ 
+  * seq2seq.py:   build a sequence 2 sequence for word sense disambiguation, using data.py as input, it will output the model. 
   
-  * model4.py:   build bidrection LSTM for word sense disambiguation, using data.py or google_data.py as input, it will output the model. 
+  * Biatten.py:   build bidrection LSTM with attention layer to the concatenated forward and backward lstm layers for word sense disambiguation, using data.py as input, it will output the model.  
   
-  * globe.py:   load the pre-trained Glove word embedding vector for our own dataset
+  * glove.py:   load the pre-trained Glove word embedding vector for our own dataset
   
   * sense_embedding.csv:   the 100-dimension sense vector of Google - Word Sense Disambiguation corpora
   
   * senseval_sense_embedding.csv:   the 100-dimensiion sense vector of Senseval2 dataset
   
-  * Final_report.docx:   descript the whole idea of this project
-  
   * data:   including Senseval2 and Senseval3 dataset
+  
+  * Images: Model Images and Graphs of Accurance and Loss
