@@ -21,3 +21,14 @@ File description:
   * data:   including Senseval2 and Senseval3 dataset
   
   * Images: Model Images and Graphs of Accurance and Loss
+
+
+# Code File to Use
+
+Once you have cloned the code on your systems and opened it in your interface, set the path and then follow the following file:
+
+  * Thesis_Code_Final.ipynb: As instruction from setting the path to loading the data. There are Explanation of the functions created and modified for the thesis. The models are created and divided my sections in the file for easier navigation. 
+
+
+
+
